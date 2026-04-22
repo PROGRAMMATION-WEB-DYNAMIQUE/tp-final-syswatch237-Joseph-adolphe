@@ -1,0 +1,16 @@
+[package]
+name = "syswatch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+sysinfo = "0.30"
+
+[[bin]]
+name = "agent"
+path = "src/bin/agent.rs"
+
+[[bin]]
+name = "controller"
+path = "src/bin/controller.rs"
